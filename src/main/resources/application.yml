@@ -62,11 +62,11 @@ spring:
         - id: mypage
           uri: http://mypage:8080
           predicates:
-            - Path= /mypages/**
+            - Path=/mypages/**
         - id: coupon
           uri: http://coupon:8080
           predicates:
-            - Path= /couponS/**
+            - Path=/coupons/**
       globalcors:
         corsConfigurations:
           '[/**]':
